@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-  "start": "node server.js",
+  "start": "npm install bcrypt && node index.js",
   "predeploy": "npm install bcrypt" 
 },
   "author": "",
@@ -16,6 +16,9 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.3.2",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "engines": { 
+      "node": "16.15.0" 
+   }
   }
 }
