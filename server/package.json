@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
-  },
+  "start": "node server.js",
+  "predeploy": "npm install bcrypt" 
+}
   "author": "",
   "license": "ISC",
   "dependencies": {
